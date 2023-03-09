@@ -1,7 +1,7 @@
 import sys
 import PySimpleGUI as sg
 import mysql.connector
-con = mysql.connector.connect(host='10.110.209.15',database='pontuacao',user='alexandre',password='nemo',port=3307)
+con = mysql.connector.connect(host='localhost',database='pontuacao',user='username',password='password',port=3306)
 
 # ---------------------------------------------------------------------------------
 tabela="""----------Tabela de Pontuação----------
